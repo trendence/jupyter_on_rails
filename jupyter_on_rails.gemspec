@@ -43,7 +43,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rubocop'
 
-  spec.add_dependency 'iruby'
+  spec.add_dependency 'iruby', '>= 0.8.1'
   spec.add_dependency 'railties'
 
   spec.add_dependency 'daru'
