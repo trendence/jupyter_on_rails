@@ -3,7 +3,7 @@ PATH
   specs:
     jupyter_on_rails (0.13.0)
       daru
-      iruby
+      iruby (>= 0.8.1)
       railties
 
 GEM
@@ -95,15 +95,16 @@ GEM
     io-console (0.5.11)
     irb (1.4.1)
       reline (>= 0.3.0)
-    iruby (0.7.4)
+    iruby (0.8.2)
       data_uri (~> 0.1)
       ffi-rzmq
       irb
+      logger
       mime-types (>= 3.3.1)
       multi_json (~> 1.11)
-      native-package-installer
     json (2.6.3)
     language_server-protocol (3.17.0.3)
+    logger (1.7.0)
     loofah (2.21.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -115,7 +116,6 @@ GEM
     minitest (5.19.0)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    native-package-installer (1.1.4)
     nio4r (2.5.7)
     nokogiri (1.15.2)
       mini_portile2 (~> 2.8.2)
@@ -188,6 +188,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   bump
@@ -197,4 +198,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   2.2.22
+   2.6.8
